@@ -54,7 +54,6 @@ async function getWeatherByLocation() {
                 document.querySelector(".weather").style.display = "none";
             } else {
                 const data = await response.json();
-                console.log(data);
 
                 document.querySelector(".city").innerHTML = data.name;
                 document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";

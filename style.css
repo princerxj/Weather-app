@@ -104,6 +104,10 @@ body {
     transform: translateY(-2px); /* Subtle lift effect on hover */
 }
 
+.weather {
+    display: none;
+}
+
 .weather-icon {
     width: 150px;
     margin: 20px 0;
